@@ -1,0 +1,142 @@
+/* Reset */
+
+* {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: unset;
+}
+
+ul > li {
+    list-style: none;
+}
+
+/* Styles */
+
+.container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.wrapper {
+    padding: 50px 20px;
+}
+
+:root {
+    --borderRadius: 8px;
+    --spoilerBakground: #d3d3d3;
+    --labelFontSize: 1.133rem;
+}
+
+.spoiler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    @media (max-width: 767.98px){
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 15px;
+    }
+}
+
+.spoiler_left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.spoiler_right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.spoiler__box {
+    transition: max-height 0.5s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: var(--borderRadius); */
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+}
+
+.spoiler__label {
+    position: relative;
+    padding: 20px;
+    /* background: var(--spoilerBakground); */
+    color: #090104;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: var(--labelFontSize);
+}
+
+.spoiler__label::before {
+    transition: 0.2s;
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.spoiler__box._active .spoiler__label::before {
+    transform: translateY(-50%) rotate(45deg);
+    pointer-events: all;
+}
+
+.spoiler__box:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.5);
+}
+
+.spoiler__content {
+    position: relative;
+    /* background: #d3d3d3; */
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    overflow-y: auto;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    height: 0;
+}
+
+.spoiler__list {
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+}
+
+.spoiler__list-item {
+    transition: all 0.5s ease-in-out;
+    padding: 0 2em;
+    position: relative;
+    line-height: 2em;
+}
+
+.spoiler__list-item::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: #090104;
+    left: 1em;
+    top: 1em;
+    transform: translateY(-50%);
+}
+
+.spoiler__list-item a {
+    color: #090104;
+}

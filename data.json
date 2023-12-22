@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "spoiler-title": "#1 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3"
+        ]
+    },
+
+    {
+        "id": 2,
+        "spoiler-title": "#2 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3",
+            "Spoiler item #4",
+            "Spoiler item #5",
+            "Spoiler item #6"
+        ]
+    },
+
+    {
+        "id": 3,
+        "spoiler-title": "#3 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3"
+        ]
+    },
+
+    {
+        "id": 4,
+        "spoiler-title": "#4 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3",
+            "Spoiler item #4",
+            "Spoiler item #5",
+            "Spoiler item #6",
+            "Spoiler item #7",
+            "Spoiler item #8",
+            "Spoiler item #9"
+        ]
+    },
+
+    {
+        "id": 5,
+        "spoiler-title": "#5 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3"
+        ]
+    },
+
+    {
+        "id": 6,
+        "spoiler-title": "#6 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3",
+            "Spoiler item #4",
+            "Spoiler item #5",
+            "Spoiler item #6"
+        ]
+    },
+
+    {
+        "id": 7,
+        "spoiler-title": "#7 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3"
+        ]
+    },
+
+    {
+        "id": 8,
+        "spoiler-title": "#8 Spoiler title",
+        "spoiler-content": [
+            "Spoiler item #1",
+            "Spoiler item #2",
+            "Spoiler item #3",
+            "Spoiler item #4",
+            "Spoiler item #5",
+            "Spoiler item #6",
+            "Spoiler item #7",
+            "Spoiler item #8",
+            "Spoiler item #9"
+        ]
+    },
+
+]
